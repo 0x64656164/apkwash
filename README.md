@@ -1,8 +1,8 @@
-# apkwash
+# apkwash for Termux
 Android APK Antivirus evasion for msfvenom generated payloads.
 <br>
 <br>
-<b> Tested on Kali linux rolling. </b><br>
+<b> Tested on Termux without root. </b><br>
 <br>
 <b>Setup:</b><br>
 apt-get update && apt-get dist-upgrade<br>
