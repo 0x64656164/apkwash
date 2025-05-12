@@ -5,12 +5,13 @@ Android APK Antivirus evasion for msfvenom generated payloads.
 <b> Tested on Termux without root. </b><br>
 <br>
 <b>Setup:</b><br>
-apt-get update && apt-get dist-upgrade<br>
+apt update && apt upgrade<br>
+git clone https://github.com/0x64656164/apkwash<br>
 chmod +x apkwash<br>
-mv apkwash /usr/local/bin/.<br>
+mv apkwash $PREFIX/bin/.<br>
 <br>
 <b>On first run:</b><br>
--Downloads and places apktool.jar in the user's /usr/local/bin directory<br>
+-Downloads and places apktool.jar in the user's $PREFIX/bin directory<br>
 -Generates debug keystore for signing. Places it in ~/.android/<br>
 <br>
 <br>
